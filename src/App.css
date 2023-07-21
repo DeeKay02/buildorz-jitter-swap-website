@@ -1,1 +1,9 @@
-
+.navItem {
+  color: white;
+  text-decoration: solid;
+  padding-inline: 25px;
+  font-weight: 500;
+  font-size: large;
+  align-items: center;
+  display: flex;
+}
