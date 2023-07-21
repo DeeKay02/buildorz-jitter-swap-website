@@ -11,6 +11,7 @@ const Navbar = () => {
         alignItems: 'center',
         justifyContent: 'space-between',
         padding: '0 50px',
+        position: 'sticky',
     }} >
         <img src={Logo} alt="Logo" style={{
             height: '50px',
