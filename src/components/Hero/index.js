@@ -1,5 +1,6 @@
 import React from 'react'
 import Arrow from '../../assets/seedArrow.png'
+import Stars from '../../assets/stars.png'
 
 const Hero = () => {
   return (
@@ -7,8 +8,10 @@ const Hero = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        overflow: 'hidden',
+        position: 'relative',
     }}>
-        <div className='stars'></div>
+        <img src={Stars} alt='stars' style={{zIndex: -2, position: 'absolute', objectFit: 'cover'}} />
         <div className='twinkling'></div>
         <div className='seedBox' style={{
             textTransform: 'uppercase',
