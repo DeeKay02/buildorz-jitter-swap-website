@@ -16,32 +16,32 @@ const Featured = () => {
   const [currentIndex1, setCurrentIndex1] = useState(0);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
+    const intervalId1 = setInterval(() => {
       if(currentIndex1 === images1.length - 1) {
         setCurrentIndex1(0);
       } 
       else {
         setCurrentIndex1(currentIndex1 + 1);
       }
-    }, 1000)
+    }, 1500)
     
-    return () => clearInterval(intervalId);
+    return () => clearInterval(intervalId1);
   })
 
   const images2 = [Frame5, Frame6, Frame7, Frame8, Frame9]
   const [currentIndex2, setCurrentIndex2] = useState(0);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
+    const intervalId2 = setInterval(() => {
       if(currentIndex2 === images2.length - 1) {
         setCurrentIndex2(0);
       } 
       else {
         setCurrentIndex2(currentIndex2 + 1);
       }
-    }, 1000)
+    }, 1500)
     
-    return () => clearInterval(intervalId);
+    return () => clearInterval(intervalId2);
   })
 
   return (

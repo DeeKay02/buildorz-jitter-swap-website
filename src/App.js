@@ -2,7 +2,7 @@ import './App.css';
 import Featured from './components/Featured';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-
+import SDKInfo from './components/SDKInfo';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Featured />
+      <SDKInfo />
     </div>
   );
 }

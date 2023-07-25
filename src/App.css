@@ -28,3 +28,10 @@
   z-index: -1;
   animation:move-twink-back 200s linear infinite;
 }
+
+.sdk {
+  border-radius: 14px;
+  height: 400px;
+  width: 460px;
+  margin: 70px;
+}
