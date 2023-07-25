@@ -34,4 +34,20 @@
   height: 400px;
   width: 460px;
   margin: 70px;
+  position: relative;
+}
+
+.sdk-img {
+  height: 60px;
+  padding: 30px 15px;
+}
+
+.sdk-in-text {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  left: 25px;
+  bottom: 40px;
 }
